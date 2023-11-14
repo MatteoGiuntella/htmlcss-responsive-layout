@@ -1,4 +1,4 @@
-/* reset */
+/*//////////// reset ////////////*/
 
 *{
     margin: 0;
@@ -7,7 +7,7 @@
     border: 1px solid black;
 }
 
-/* general */
+/*//////////// general ////////////*/
 
 .container{
     width: 100%;
@@ -16,12 +16,30 @@
 a{
     text-decoration: none;
 }
+img{
+    width: 100%;
+    display: block;
+}
+.container-background-section-lilla{
+    background-color: violet;
+}
+/*//////////// button ////////////*/
 .white-button{
     border-radius: 50px;
     min-height: 30px;
 }
+.button-blue{
+    background-color: blue;
+    border-radius: 50px;
+    min-height: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
 
-/* header */
+
+/*//////////// header ////////////*/
 
 .container-background-header{
     background-color: blue;
@@ -40,6 +58,7 @@ a{
 }
 .header-nav:first-child{
     padding-left: 10px;
+    padding-top: 5px;
 }
 .header-nav:last-child{
     padding-right: 10px;
@@ -51,18 +70,56 @@ a{
     display: none;
 }
 
+/*///////// main //////////*/
+
+/* section1 */
+.card-section-1{
+    background-color: lightskyblue;
+    margin: 20px;
+    border-radius: 20px;
+}
+.card-section-1 div > *{
+    margin-top: 10px;
+}
+.card-section-1 > *{
+    margin-top: 10px;
+}
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-section-1 > div h2{
+    color: blue;
+}
+.card-section-1 > div p, .card-section-1 > div h2{
+    text-align: center;
+}
+.card-section-1  h2{
+    color: blue;
+}
+.card-section-1  p, .card-section-1 h2{
+    text-align: center;
+}
+.box-img-section-1{
+    width: 100%;
+}
+.card-section-1 div i{
+    font-size: 100px;
+    color: blue;
+}
+.card-section-1 > div{
+    width: 100%;
+    text-align: center;
+}
+
+
+/*//////////// footer ////////////*/
 
 
 
-/* main */
-
-
-
-/* footer */
-
-
-
-/* breakpoint */
+/*//////////// breakpoint ////////////*/
 
 /* tablet */
 
@@ -73,6 +130,19 @@ a{
     }
     .box-item{
         display: none;
+    }
+    .big-box-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .my-col-2-3{
+        width: calc(((100% / 3) * 2) - 40px);
+    }
+    .my-col-1-3{
+        width: calc((100% / 3) - 40px);
+    }
+    .card-section-1{
+        display: flex;
     }
     
 }
@@ -91,5 +161,20 @@ a{
         width: 1000px;
         margin: auto;
     }
+    .big-box-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-section-1{
+        width: calc((100% / 3) - 40px);
+    }
+    .my-col-2-3{
+        width: calc(((100% / 3) * 2) - 40px);
+    }
+    .my-col-1-3{
+        width: calc((100% / 3) - 40px);
+    }
+    
+    
     
 }
