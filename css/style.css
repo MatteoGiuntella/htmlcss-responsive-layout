@@ -1,11 +1,41 @@
 /* reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
+
 /* general */
+
 .container{
     width: 1200px;
     margin: auto;
+}
+
+/* header */
+
+
+
+/* main */
+
+
+
+/* footer */
+
+
+
+/* breakpoint */
+
+/* tablet */
+
+@media screen and (min-width: 768px){
+    
+}
+
+/* desktop */
+
+@media screen and (min-width: 992px){
+    
 }
