@@ -292,6 +292,18 @@ img{
     .card-section-4{
         width: calc(( 100% / 2) - 40px);
     }
+    .box-section-5{
+        display: flex;
+    }
+    .box-section-5-top{
+        width: 70%;
+    }
+    .box-section-5-bottom{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
