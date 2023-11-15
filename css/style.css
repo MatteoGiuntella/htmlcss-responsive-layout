@@ -210,14 +210,15 @@ img{
         display: flex;
         flex-direction: row;
     }
-
-    /*  */
     .card-purple-info{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        width: 50%;
     }
-    /* da chiedere */
+    .card-purple-info-top{
+        margin-right: 50px;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+
 }
 
 /* desktop */
@@ -251,5 +252,12 @@ img{
         display: flex;
         align-items: flex-end;
     }
-   
+    .card-purple-info{
+        width: 50%;
+    }
+    .card-purple-info-top{
+        margin-right: 50px;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
 }
