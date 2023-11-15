@@ -253,6 +253,13 @@ img{
         margin-top: 25px;
         margin-right: 50px;
     }
+    .card-box-section-4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-section-4{
+        width: calc(( 100% / 2) - 40px);
+    }
 
 }
 
@@ -294,5 +301,12 @@ img{
         margin-right: 50px;
         margin-top: 25px;
         margin-right: 50px;
+    }
+    .card-box-section-4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-section-4{
+        width: calc(( 100% / 3) - 40px);
     }
 }
