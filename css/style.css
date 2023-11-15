@@ -241,7 +241,33 @@ img{
 .button-purple i {
     padding-right: 5px;
 }
+/* section 6 */
+.box-section-6{
+    text-align: center;
+    margin-top: 30px;
 
+}
+.box-section-6 h1{
+    color: goldenrod;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+.box-section-6 p{
+    color: white;
+    margin-bottom: 30px;
+    
+}
+.box-section-6 h2, .box-section-6 h3{
+    color: white;
+    margin-bottom: 30px;
+}
+#button-section-6{
+    min-height: 30px;
+    color: #9792E4;
+    border-radius: 20px;
+    min-width: 100px;
+    margin-bottom: 40px;
+}
 
 
 /*//////////// footer ////////////*/
